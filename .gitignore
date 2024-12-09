@@ -1,0 +1,20 @@
+# Ignore all __pycache__ directories, regardless of depth
+**/__pycache__/
+__pycache__/
+
+# Ignore environment and virtual environment folders
+backend/env/
+backend/.env
+
+# Ignore .github and Git ignore files in the backend
+backend/.github/
+backend/.gitignore
+**/.env
+**/__pycache__/
+**/*.pyc
+**/*.cpython-312.pyc
+
+# Ignore frontend dependencies and Git ignore files
+frontend/node_modules/
+frontend/.gitignore
+backend/api/versions/v1/__pycache__/__init__.cpython-312.pyc

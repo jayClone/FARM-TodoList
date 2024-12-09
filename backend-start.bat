@@ -1,0 +1,1 @@
+cd backend && env\Scripts\activate && uvicorn app.app:app --reload
